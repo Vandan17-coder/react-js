@@ -16,7 +16,7 @@ const Sidebar = () => {
 
     return (
         
-        <div className='flex flex-col px-2'>
+        <div className='w-20 flex-shrink-0 flex flex-col px-2'>
             {items.map(function(elem,idx){
                return <SidebarItem key={idx} icon={elem.icon} label={elem.label} />
             })}

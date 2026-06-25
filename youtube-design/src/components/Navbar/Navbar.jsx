@@ -23,11 +23,11 @@ const Navbar = () => {
             </div>
 
           {/*Seach bar*/}
-            <div className='px-20 flex items-center gap-1 '>
+            <div className='flex-1 flex justify-center items-center gap-5'>
 
                 {/*search box and earch icon*/}
                 <div className='flex items-center rounded-4xl py-2 px-6  '>
-                    <input type="text" placeholder="Search" className="w-[500px] px-5 py-2 border border-zinc-700 rounded-l-full bg-black text-white outline-none"/>
+                    <input type="text" placeholder="Search" className="w-[550px] max-w-full px-5 py-2 border border-zinc-700 rounded-l-full bg-black text-white outline-none"/>
                     <button className="px-5 py-2 border border-zinc-700 border-l-0 bg-[#222222] rounded-r-full cursor-pointer ">
                         <Search />
                     </button>    

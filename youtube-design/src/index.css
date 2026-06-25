@@ -1,1 +1,9 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+html,
+body,
+#root {
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
